@@ -10,7 +10,11 @@ public class MainHashTable {
         ht.put("9", 90);
         ht.put("5", 50);
         System.out.println(ht.keyExists("2"));
+        System.out.println(ht.keyExists("23"));
         System.out.println(ht.keyExists("4"));
+        System.out.println(ht.keyExists("6"));
         System.out.println(ht.get(2));
+        System.out.println(ht.get(4));
+        System.out.println(ht.get(6));
     }
 }
